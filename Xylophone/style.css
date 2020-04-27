@@ -69,3 +69,32 @@ header{
     background: #60d36f;
 }
 /* ========== ./Bars ========== */
+
+/* ========== Animation Div ========== */
+.animation > div{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0%;
+    z-index: -1;
+}
+/* ========== ./Animation Div ========== */
+
+
+/* ========== Animation ========== */
+@keyframes jump{
+    0%{
+        bottom: 0%;
+        left: 20%;
+    }
+    50%{
+        bottom: 50%;
+        left: 50%;
+    }
+    100%{
+        bottom: 0%;
+        left: 80%;
+    }
+}
+/* ========== ./Animation ========== */
