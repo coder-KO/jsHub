@@ -1,0 +1,65 @@
+/* ========== Reset ========== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ========== ./Reset ========== */
+
+body{
+    font-family: 'Pacifico', cursive;
+}
+
+
+/* ========== Main App ========== */
+.xylophone{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ========== ./Main App ========== */
+
+
+/* ========== Header ========== */
+header{
+    margin: 50px, 0, 30px, 0;
+    text-align: center;
+    font-size: 24px;
+}
+/* ========== ./Header ========== */
+
+
+/* ========== Bars ========== */
+.bars{
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+}
+
+.bars > div{
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+
+.bar1{
+    background: #60d394;
+}
+.bar2{
+    background: #d36060;
+}
+.bar3{
+    background: #c060d3;
+}
+.bar4{
+    background: #d3d160;
+}
+.bar5{
+    background: #6860d3;
+}
+.bar6{
+    background: #60b2d3;
+}
+/* ========== ./Bars ========== */
