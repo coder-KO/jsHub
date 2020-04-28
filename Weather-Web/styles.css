@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143)) ;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+/* ========== Header ========== */
+header{
+    height: 10vh;
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+/* ========== ./Header ========== */
+
+
+/* ========== Main App ========== */
+.app{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    /* width: 100%; */
+}
+/* ========== ./Main App ========== */
+
+
+/* ========== Location, Temperature Div ========== */
+.location, .temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* ========== ./Location, Temperature Div ========== */
+
+
+/* ========== Temperature Div ========== */
+.temperature{
+    flex-direction: column;
+}
+
+.degree-section{
+    display: flex;
+    cursor: pointer;
+}
+
+.degree-section span{
+    margin: 10px;
+    font-size: 24px;
+}
+
+.degree-section h2{
+    font-size: 40px;
+}
+/* ========== ./Temperature Div ========== */
