@@ -7,7 +7,7 @@
 }
 
 body {
-    background: lightblue url('bg.jpg');
+    background: url('bg.jpg');
     font-family: 'Acme', sans-serif;
     color: #ffffff;
     display: flex;
