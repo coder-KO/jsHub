@@ -1,4 +1,3 @@
-
 window.addEventListener('load', ()=> {
     let lng;
     let lat;
