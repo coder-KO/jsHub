@@ -18,3 +18,6 @@ const api_key = `YOUR API KEY`;
 
 ``` 
  And you are good to go.!
+
+ 
+Minor UI Fixes Remaining
